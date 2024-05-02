@@ -70,7 +70,6 @@
     ]
   },
   "scripts": {
-    "prepare": "tsc && webpack",
     "pretest": "rm -rf ./lib && tsc --version && tsc && webpack",
     "test": "jest --coverage",
     "perf": "npm run pretest && ts-node ./perf/perf.ts",
